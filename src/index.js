@@ -1,3 +1,5 @@
+export { setDefaultFontFamily } from "./internal/defaultFontFamily";
+
 export { default as human } from "./collections/human";
 export { default as humanDense } from "./collections/humanDense";
 export { default as humanTall } from "./collections/humanTall";
@@ -19,5 +21,3 @@ export { default as systemTallWeights } from "./helpers/systemTallWeights";
 export { default as sanFranciscoSpacing } from "./helpers/sanFranciscoSpacing";
 export { default as iOSColors } from "./helpers/iOSColors";
 export { default as materialColors } from "./helpers/materialColors";
-
-export {setDefaultFontFamily} from './internal/defaultFontFamily';

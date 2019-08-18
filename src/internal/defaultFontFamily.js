@@ -1,7 +1,5 @@
-import { Platform } from "react-native";
-
-export let defaultFontFamily = '';
+export let defaultFontFamily = "Poppins-Regular";
 
 export function setDefaultFontFamily(fontFamily) {
   defaultFontFamily = fontFamily;
-};
+}
